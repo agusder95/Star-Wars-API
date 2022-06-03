@@ -6,11 +6,11 @@ import Main from '../Main/main';
 import Footer from '../Footer/footer'
 
 const Home = () => (
-    <>
+    <Main>
         <Header />
         <Body />
         <Footer />
-    </>
+    </Main>
 )
         
 export default Home

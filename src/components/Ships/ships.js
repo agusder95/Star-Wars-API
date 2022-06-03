@@ -5,13 +5,14 @@ import Header from '../Header/header';
 import Footer from '../Footer/footer';
 import { Link } from 'react-router-dom';
 
-const Character = () =>(
+const Ships =() =>(
     <Main>
         <Header />
-        <h1 >Holaaaaaaaaaaa</h1>
-        <Link to={'/'}> Home </Link>
+        <h1 >Shipssssss</h1>
+        <Link to={'/'}>Home</Link>
         <Footer />
     </Main>
+
 )
 
-export default Character
+export default Ships

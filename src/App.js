@@ -4,20 +4,23 @@ import React, { useState } from 'react';
 
 import Home from './components/Home';
 
-import './styles.css'
 import Character from './components/Characters/character';
+import Ships from './components/Ships/ships'
+import Worlds from './components/Worlds/worlds'
 
 function App() {
 
-
-  const [value, setValue] = useState()
+  
+  
 
   return (
     <div className="App">
       
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path= {value} element={<Character />}/>
+        <Route path= 'characters' element={<Character />}/>
+        <Route path= 'ships' element={<Ships />} />
+        <Route path= 'worlds' element={<Worlds />} />
       </Routes>
     </div>
   );
